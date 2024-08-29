@@ -1,0 +1,122 @@
+/* General Dashboard Styling */
+.dashboard {
+    font-family: 'Roboto', sans-serif;
+    max-width: 90vw;
+    margin: 20px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #f3f4f6, #e1e2e3);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+  }
+  
+  /* Overview Section */
+  .dashboard-overview {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-overview h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .dashboard-stats:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dashboard-stats div {
+    font-size: 20px;
+    color: #666;
+    font-weight: 500;
+  }
+  
+  /* Actions Section */
+  .dashboard-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-actions button {
+    padding: 12px 25px;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    outline: none;
+  }
+  
+  .dashboard-actions button:hover {
+    background: linear-gradient(135deg, #388e3c, #66bb6a);
+    transform: translateY(-2px);
+  }
+  
+  .dashboard-actions button:active {
+    transform: translateY(1px);
+  }
+  
+  /* Recent Activity Section */
+  .dashboard-recent-activity h3 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .dashboard-recent-activity ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-recent-activity li {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-left: 5px solid #4caf50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #555;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .dashboard-recent-activity li:hover {
+    background-color: #f1f8f4;
+    transform: translateX(5px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-stats {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .dashboard-actions {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .dashboard-actions button {
+      margin-bottom: 15px;
+      width: 80%;
+    }
+  }
+  

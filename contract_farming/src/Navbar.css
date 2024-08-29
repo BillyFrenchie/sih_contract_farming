@@ -1,0 +1,26 @@
+.navdiv{
+    
+    background-color: #4CAF50;
+                 margin-top: 10px;
+        padding: 0.5%;        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, sans-serif;
+        font-size: large;
+        font-weight: bold;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+        
+        
+    
+
+}
+.navsearch{
+    border-radius: 10px;
+    outline: none;
+    outline-color: #4CAF50;
+    height: 30px;
+    width: 15%;
+
+}

@@ -1,0 +1,83 @@
+/* Reset table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  thead {
+    background-color: #4CAF50; /* Primary color */
+    color: #fff;
+  }
+  
+  thead th {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  thead th:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+  }
+  
+  tbody tr {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row color */
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+  }
+  
+  tbody td {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+  }
+  
+  tbody td button {
+    background-color: #4CAF50; /* Primary color */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 0 5px;
+  }
+  
+  tbody td button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  
+  .contract-list {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contract-list h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Primary color */
+    transition: color 0.3s ease;
+  }
+  
+  .contract-list h3:hover {
+    color: #45a049; /* Slightly darker green on hover */
+  }
+  
