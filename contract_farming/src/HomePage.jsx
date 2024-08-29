@@ -11,6 +11,14 @@ const HomePage = () => (
         <a href="#contact">Contact</a>
         <a href="#login" className="login-btn">Login</a>
       </nav>
+      <div className="toggle-container">
+        <span className="toggle-label">EN</span>
+        <label className="toggle-switch">
+          <input type="checkbox" className="toggle-checkbox" />
+          <span className="slider"></span>
+        </label>
+        <span className="toggle-label">HI</span>
+      </div>
     </header>
 
     <section className="hero">
