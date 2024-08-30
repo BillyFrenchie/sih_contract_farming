@@ -4,7 +4,7 @@ import './HomePage.css';
 const HomePage = () => (
   <div className="HomePage">
     <header className="header">
-      <div className="logo">ContractFarm</div>
+      <div className="logo">FarmLink</div>
       <nav className="nav">
         <a href="#features">Features</a>
         <a href="#about">About</a>
@@ -23,7 +23,7 @@ const HomePage = () => (
 
     <section className="hero">
       <div className="hero-content">
-        <h1>Welcome to ContractFarm</h1>
+        <h1>Welcome to FarmLink</h1>
         <p>Your gateway to secure and transparent contract farming</p>
         <a href="#signup" className="cta-button">Get Started</a>
       </div>
@@ -67,7 +67,7 @@ const HomePage = () => (
 
     <footer className="footer">
       <div className="container">
-        <p>&copy; 2024 ContractFarm. All rights reserved.</p>
+        <p>&copy; 2024 FarmLink. All rights reserved.</p>
       </div>
     </footer>
   </div>
